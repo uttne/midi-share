@@ -1,4 +1,5 @@
 ﻿using System;
+using MidiShare.Core;
 
 namespace MidiShare.Cli
 {
@@ -6,7 +7,7 @@ namespace MidiShare.Cli
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Class1.Sample();
         }
     }
 }
