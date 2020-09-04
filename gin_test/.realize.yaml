@@ -1,0 +1,22 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+schema:
+- name: gin_test
+  path: .
+  commands:
+    run:
+      status: true
+  watcher:
+    extensions:
+    - go
+    paths:
+    - /
+    ignore:
+      paths:
+      - .git
+      - .realize
+      - vendor
+
+# https://qiita.com/godgarden/items/f73e4a717f1a27b9a3b0
